@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Source/Classes/**/*"
+  s.source_files  = "MMLogWindow/Classes/**/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -108,7 +108,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Source/Assets/**/*"
+  s.resources = "MMLogWindow/Assets/**/*"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
