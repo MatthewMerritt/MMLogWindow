@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34785CE31FEE4454008F7DE8 /* LogWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34785CE01FEE4453008F7DE8 /* LogWindowController.xib */; };
+		34785CE41FEE4454008F7DE8 /* LineNumberRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34785CE11FEE4453008F7DE8 /* LineNumberRulerView.swift */; };
+		34785CE51FEE4454008F7DE8 /* MMLogWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34785CE21FEE4454008F7DE8 /* MMLogWindowController.swift */; };
 		34CADAF81FEE43B000AEE94B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CADAF71FEE43B000AEE94B /* AppDelegate.swift */; };
 		34CADAFA1FEE43B000AEE94B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CADAF91FEE43B000AEE94B /* ViewController.swift */; };
 		34CADAFC1FEE43B000AEE94B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CADAFB1FEE43B000AEE94B /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34785CE01FEE4453008F7DE8 /* LogWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogWindowController.xib; sourceTree = "<group>"; };
+		34785CE11FEE4453008F7DE8 /* LineNumberRulerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineNumberRulerView.swift; sourceTree = "<group>"; };
+		34785CE21FEE4454008F7DE8 /* MMLogWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMLogWindowController.swift; sourceTree = "<group>"; };
 		34CADAF41FEE43AF00AEE94B /* MMLogWindowExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMLogWindowExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CADAF71FEE43B000AEE94B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34CADAF91FEE43B000AEE94B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,9 +40,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34785CDD1FEE43CD008F7DE8 /* MMLogWindow */ = {
+			isa = PBXGroup;
+			children = (
+				34785CDF1FEE43DE008F7DE8 /* Assets */,
+				34785CDE1FEE43D7008F7DE8 /* Classes */,
+			);
+			path = MMLogWindow;
+			sourceTree = "<group>";
+		};
+		34785CDE1FEE43D7008F7DE8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				34785CE11FEE4453008F7DE8 /* LineNumberRulerView.swift */,
+				34785CE01FEE4453008F7DE8 /* LogWindowController.xib */,
+				34785CE21FEE4454008F7DE8 /* MMLogWindowController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		34785CDF1FEE43DE008F7DE8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		34CADAEB1FEE43AF00AEE94B = {
 			isa = PBXGroup;
 			children = (
+				34785CDD1FEE43CD008F7DE8 /* MMLogWindow */,
 				34CADAF61FEE43AF00AEE94B /* MMLogWindowExample */,
 				34CADAF51FEE43AF00AEE94B /* Products */,
 			);
@@ -124,6 +157,7 @@
 			files = (
 				34CADAFC1FEE43B000AEE94B /* Assets.xcassets in Resources */,
 				34CADAFF1FEE43B000AEE94B /* Main.storyboard in Resources */,
+				34785CE31FEE4454008F7DE8 /* LogWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34785CE41FEE4454008F7DE8 /* LineNumberRulerView.swift in Sources */,
 				34CADAFA1FEE43B000AEE94B /* ViewController.swift in Sources */,
+				34785CE51FEE4454008F7DE8 /* MMLogWindowController.swift in Sources */,
 				34CADAF81FEE43B000AEE94B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

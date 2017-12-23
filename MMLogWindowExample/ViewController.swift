@@ -10,6 +10,8 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    var logWindow = MMLogWindowController.shared
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +24,10 @@ class ViewController: NSViewController {
         }
     }
 
+    @IBAction func logWindowAction(_ sender: NSMenuItem) {
+        logWindow.showWindow(self)
 
+        logWindow.add(string: "First String", title: "First Title", timeStamp: true)
+    }
 }
 
