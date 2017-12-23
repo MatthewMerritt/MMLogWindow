@@ -3,7 +3,7 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo and open the project.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ pod 'MMLogWindow', :git => 'https://github.com/MatthewMerritt/MMLogWindow.git'
 
 ## Other sources used in MMLogWindow
 
-MMLogWindow uses [CocoaPods](https://github.com/yichizhang/NSTextView-LineNumberView) for displaying line
+MMLogWindow uses [NSTextView+LineNumberView](https://github.com/yichizhang/NSTextView-LineNumberView) for displaying line
 numbers. 
 
 ## Author
