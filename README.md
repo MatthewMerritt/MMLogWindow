@@ -22,6 +22,10 @@ it, simply add the following line to your Podfile:
 pod 'MMLogWindow', :git => 'https://github.com/MatthewMerritt/MMLogWindow.git'
 ```
 
+## Screen Shot
+
+![ScreenShot](https://github.com/MatthewMerritt/MMLogWindow/blob/master/MMLogWindow/Assets/ScreenShot.png)
+
 ## Other sources used in MMLogWindow
 
 MMLogWindow uses [NSTextView+LineNumberView](https://github.com/yichizhang/NSTextView-LineNumberView) for displaying line
