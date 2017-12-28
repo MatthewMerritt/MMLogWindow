@@ -1,5 +1,9 @@
 # MMLogWindow
 
+[![Version](https://img.shields.io/cocoapods/v/MMLogWindow.svg?style=flat)](http://cocoapods.org/pods/MMLogWindow)
+[![License](https://img.shields.io/cocoapods/l/MMLogWindow.svg?style=flat)](http://cocoapods.org/pods/MMLogWindow)
+[![Platform](https://img.shields.io/cocoapods/p/MMLogWindow.svg?style=flat)](http://cocoapods.org/pods/MMLogWindow)
+
 
 ## Example
 
