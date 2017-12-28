@@ -2,9 +2,8 @@
 
 [![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://swift.org)
 [![Version](https://img.shields.io/cocoapods/v/MMLogWindow.svg?style=flat)](http://cocoapods.org/pods/MMLogWindow)
-[![CocoaPods](https://img.shields.io/cocoapods/metrics/doc-percent/MMLogWindow.svg)](https://pgssoft.github.io/MMLogWindow)
 [![Platform](https://img.shields.io/cocoapods/p/MMLogWindow.svg?style=flat)](http://cocoapods.org/pods/MMLogWindow)
-[![License](https://img.shields.io/github/license/PGSSoft/MMLogWindow.svg)](https://github.com/MatthewMerritt/MMLogWindow/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/MatthewMerritt/MMLogWindow.svg)](https://github.com/MatthewMerritt/MMLogWindow/blob/master/LICENSE)
 
 
 
