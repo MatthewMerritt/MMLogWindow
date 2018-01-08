@@ -15,6 +15,7 @@
 		34CADAFA1FEE43B000AEE94B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CADAF91FEE43B000AEE94B /* ViewController.swift */; };
 		34CADAFC1FEE43B000AEE94B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CADAFB1FEE43B000AEE94B /* Assets.xcassets */; };
 		34CADAFF1FEE43B000AEE94B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CADAFD1FEE43B000AEE94B /* Main.storyboard */; };
+		34CF352A2003EF9200497282 /* Print.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CF35292003EF9200497282 /* Print.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		34CADAFE1FEE43B000AEE94B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34CADB001FEE43B000AEE94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34CADB011FEE43B000AEE94B /* MMLogWindowExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MMLogWindowExample.entitlements; sourceTree = "<group>"; };
+		34CF35292003EF9200497282 /* Print.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Print.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				34785D1E1FEEE29D008F7DE8 /* ScreenShot.png */,
+				34CF35292003EF9200497282 /* Print.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				34CADAFF1FEE43B000AEE94B /* Main.storyboard in Resources */,
 				34785CE31FEE4454008F7DE8 /* LogWindowController.xib in Resources */,
 				34785D1F1FEEE29D008F7DE8 /* ScreenShot.png in Resources */,
+				34CF352A2003EF9200497282 /* Print.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

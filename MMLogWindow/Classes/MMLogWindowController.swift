@@ -75,6 +75,25 @@ public class MMLogWindowController: NSWindowController, NSWindowDelegate {
         textView.lineNumberView.scrollView?.rulersVisible = !(textView.lineNumberView.scrollView?.rulersVisible)!
     }
 
+    @IBAction func printButtonAction(_ sender: NSButton) {
+        //    [[NSPrintOperation printOperationWithView:self] runOperation];
+        let printOpts: [NSPrintInfo.AttributeKey : AnyObject] = [NSPrintInfo.AttributeKey.jobDisposition : NSPrintInfo.JobDisposition.preview as AnyObject]
+        let printInfo: NSPrintInfo = NSPrintInfo(dictionary: printOpts)
+
+        printInfo.paperSize = NSMakeSize(612, 792)
+        printInfo.orientation = .portrait
+        printInfo.topMargin = 15.0
+        printInfo.leftMargin = 25.0
+        printInfo.rightMargin = 0.0
+        printInfo.bottomMargin = 0.0
+
+        let printOp: NSPrintOperation = NSPrintOperation(view: textView, printInfo: printInfo)
+
+        printOp.showsPrintPanel = true
+        printOp.showsProgressPanel = true
+        printOp.run()
+    }
+
     /// This adds a single string to the textView, or stringsToAdd array if textView has not been loaded.
     ///
     /// - Parameters:

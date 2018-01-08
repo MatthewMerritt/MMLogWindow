@@ -5,7 +5,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="MMLogWindowController" customModule="ShiftTodayUpdater" customModuleProvider="target">
+        <customObject id="-2" userLabel="File's Owner" customClass="MMLogWindowController" customModule="MMLogWindowExample" customModuleProvider="target">
             <connections>
                 <outlet property="accessoryView" destination="48V-Pe-u3q" id="x5u-K8-Rrc"/>
                 <outlet property="textView" destination="Ait-Hl-MNb" id="tQk-a0-98W"/>
@@ -30,7 +30,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="480" height="268"/>
                                 <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="z1J-bH-ZJP">
                                     <rect key="frame" x="0.0" y="0.0" width="480" height="268"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textView editable="NO" drawsBackground="NO" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="Ait-Hl-MNb">
                                             <rect key="frame" x="0.0" y="0.0" width="480" height="268"/>
@@ -74,11 +74,11 @@
             <point key="canvasLocation" x="926" y="558"/>
         </window>
         <customView id="48V-Pe-u3q">
-            <rect key="frame" x="0.0" y="0.0" width="68" height="26"/>
+            <rect key="frame" x="0.0" y="0.0" width="74" height="29"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XcG-yE-bGd">
-                    <rect key="frame" x="27" y="4" width="20" height="21"/>
+                    <rect key="frame" x="27" y="7" width="20" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="NSTrashFull" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="VBh-tY-kVr">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -89,9 +89,9 @@
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eiC-yC-Ktc">
-                    <rect key="frame" x="0.0" y="5" width="20" height="21"/>
+                    <rect key="frame" x="0.0" y="7" width="20" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="NSPathTemplate" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="7qG-lv-m8I">
+                    <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="NSListViewTemplate" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="7qG-lv-m8I">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -99,12 +99,24 @@
                         <action selector="toggleLineNumbers:" target="-2" id="i6d-wo-YkZ"/>
                     </connections>
                 </button>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hMb-Ed-Yla">
+                    <rect key="frame" x="54" y="7" width="20" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="Print" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="Y0b-KB-D4Q">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="printButtonAction:" target="-1" id="iWA-Bo-E4Q"/>
+                    </connections>
+                </button>
             </subviews>
-            <point key="canvasLocation" x="944" y="331"/>
+            <point key="canvasLocation" x="943" y="329.5"/>
         </customView>
     </objects>
     <resources>
-        <image name="NSPathTemplate" width="16" height="10"/>
+        <image name="NSListViewTemplate" width="14" height="10"/>
         <image name="NSTrashFull" width="32" height="32"/>
+        <image name="Print" width="64" height="64"/>
     </resources>
 </document>
